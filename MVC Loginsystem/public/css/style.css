@@ -1,0 +1,414 @@
+/*
+  <--------------------------->
+  <--------------------------->
+  <----------Header----------->
+  <--------------------------->
+  <--------------------------->
+*/
+	body {
+		margin:0px;
+		padding:0px;
+		background-color:RGB(200,200,200);
+	}
+	header {
+		display:flex;
+		min-height:53px;
+		background-color:RGB(093,071,139);
+	}
+	#navbar{
+		display:flex;
+		margin-right:auto;
+	}
+	
+	#logo {
+		width:15%;
+		height:100%;
+	}
+	#header_ueberschrift{
+		font-family:arial;
+		font-size:150%;
+		color:white;
+		position:relative;
+		text-decoration:none;
+		left:4%;
+		top:20%;
+	}
+	.header_register_submit {
+		padding:7px 18px;
+		background-color: RGB(248,248,255);
+		border:solid 1px;
+		border-radius: 5px;
+		border-color: RGB(66,66,66);
+		color: RGB(66,66,66);
+		font-size: 16px;
+		font-weight: bold;
+		margin-top:3.5%;
+		position:relative;
+		right:3%;
+	}
+	.header_register_submit:hover {
+		cursor:pointer;
+		background-color:RGB(180,180,180);
+	}
+	
+/*
+  <--------------------------->
+  <--------------------------->
+  <-----------index----------->
+  <--------------------------->
+  <--------------------------->
+*/
+
+	#container {
+		width:70%;
+		margin:auto;
+        min-height:871px;
+        background: white;
+	}
+
+	#box {
+		text-align:center;
+		padding:1.5%;
+		background-color:RGB(093,071,139);
+		background-image: linear-gradient(rgba(093,071,139), rgb(099,184,255));
+		width:40%;
+		margin:auto;
+		border:solid 1px;
+		border-radius:15px;
+		position:relative;
+		top:100px;
+	}
+	.ueberschrift {
+		color:white;
+	}
+	#playbutton {
+		width:45%;
+		height:6%;
+		height:5%;
+		background-color: RGB(248,248,255);
+		color:RGB(66,66,66);
+		border:solid 1px;
+		border-radius:5px;
+		border-color:RGB(66,66,66);
+		font-size:120%;
+		font-weight:bold;
+	}
+	#playbutton:hover {
+		cursor:pointer;
+		background-color:RGB(180,180,180);
+	}
+	#paragraph_starterklärung {
+		color:white;
+	}
+	#anker_anmelden{
+		color:rgb(66,66,66);
+	}
+	footer {
+		width:100%;
+		height:45px;
+		background-color:RGB(093,071,139);
+	}
+/*
+  <--------------------------->
+  <--------------------------->
+  <----------signup----------->
+  <--------------------------->
+  <--------------------------->
+*/
+
+	.input {
+		text-align:center;
+		width:90%;
+		height:35px;
+		border:solid 1px grey;
+		border-radius:5%;
+		margin-bottom:2%;
+	}
+	.errormsg {
+		margin-bottom:5px;
+		color:#8B0000	;
+		font-size:16px;
+		font-weight:bold;
+	}
+
+    #errormsgbox {
+		display:line;
+		border:solid 1px red;
+		width:78.5%;
+		padding:8px;
+		border-radius:6px;
+		margin-top:10px;
+		margin:auto;
+		margin-top:2%;
+		background:#FF6A6A;
+	}
+ 
+
+    #submit_flexbox {
+        display:flex;
+        width: 90%;
+        height: 30px;
+        margin: auto;
+    }
+    
+    #lostpwd_box {
+        width: 47%;
+        padding: 4px;
+        border:solid 0px;
+        border-radius: 5px
+    }
+    
+    #lostpwd_box:hover {
+        cursor: pointer;
+        background: rgba(171,171,171);
+    }
+	#main_login {
+		width:47%;
+        height: 30px;
+		border:solid 1px black;
+		border-radius:5%;
+		font-size:100%;
+		font-weight:bold;
+		color: RGB(110,110,110);
+		cursor: pointer;
+		background-color:RGB(248,248,255);
+        margin-right: 5%
+	}
+
+	#main_login:hover {
+		background-color:RGB(171,171,171);
+	}
+
+
+	#lostpwd {
+		color:white;
+		text-decoration:none;
+		font-size:110%;
+	}
+    
+#p {
+    color: white;
+    font-size: 16px;
+}
+
+
+/*
+  <--------------------------->
+  <--------------------------->
+  <--------Kategorie---------->
+  <--------------------------->
+  <--------------------------->
+*/
+#box2 {
+	border:solid 1px white;
+}
+#erklärungs_box {
+	width:80%;
+	height:15%;
+	border:solid 2px gray;
+	border-radius:8px;
+	margin:auto;
+	background-color:rgba(108,166,205);
+	color:white;
+	opacity: 0.8;
+	text-align:center;
+}
+#kategorieall{
+	display: flex;
+	flex-wrap: nowrap;
+	position:relative;
+	left:0.2%;
+    top: 5%:
+}
+.kattegorie {
+	width:100%;
+	height:50px;
+	background-color:RGB(093,071,139);
+}
+.spalte {
+	width:20%;
+	text-align:center;
+	color:white;
+	font-size:125%;
+	margin-right:0.5%;
+}
+.buttonkategorie {
+	background-color:rgb(108,166,205);
+	width:100%;
+	display:block;
+	height:50px;
+	text-align:center;
+	color:white;
+	font-size:100%;
+	cursor: pointer;
+}
+.antwort {
+	visibility:hidden;
+}
+.text {
+	position:relative;
+	top:25%;
+}
+#kategorie-submit {
+	width:13%;
+	height:35px;
+	font-weight:bold;
+	border:solid 1px;
+	border-radius:7px;
+	border-color: RGB(66,66,66);
+	font-size:100%;
+	float:right;
+	position:relative;
+	top:8px;
+	right:0.5%;
+	background-color: RGB(248,248,255);
+	color: RGB(66,66,66);
+	cursor: pointer;
+}
+#kategorie-submit:hover {
+	background-color:RGB(171,171,171);
+}
+
+/*
+  <--------------------------->
+  <--------------------------->
+  <----------Fragen----------->
+  <--------------------------->
+  <--------------------------->
+*/
+#box3 {
+	border:solid 1px white;
+}
+.ueberschriftfragen {
+	color:RGB(093,071,139);
+	font-size:40px;
+}
+
+#stand {
+	width:90%;
+	margin:auto;
+	text-align:center;
+}
+#gewinner {
+	width:80%;
+	margin:auto;
+	border:solid 2px;
+	font-weight:bold;
+	font-size:20px;
+	margin-bottom:1%;
+	padding:3px;
+}
+
+#richtig {
+	width:80%;
+	margin:auto;
+	border:solid 2px;
+	border-color:green;
+	color:green;
+	font-weight:bold;
+	font-size:16px;
+	padding:3px;
+}
+
+
+#falsch {
+	width:80%;
+	padding:3px;
+	margin:auto;
+	border:solid 2px;
+	border-color:red;
+	color:red;
+	font-weight:bold;
+	font-size:20px;
+	margin-top:1%;
+}
+
+
+#avatar{
+    margin-right:12%;
+}
+
+#avatar1{
+	display:flex;
+}
+
+#avatar2{
+	display:flex;
+	margin-top:3%;
+}
+
+#spieleravatar {
+	width:80px;
+	height:80px;
+	border:solid 2px;
+	border-radius:5px;
+	border-color:RGB(093,071,139);
+}
+
+#computeravatar {
+	height:80px;
+	border:solid 2px;
+	border-radius:5px;
+	border-color:black;
+}
+
+.avatartext {
+margin-left:5%;
+position:relative;
+bottom:10px;
+}
+
+#fragebox {
+	width: 65%;
+    margin-left: 17%;
+	position:relative;
+	bottom:30px;
+	display:inline;
+}
+
+#flexbox {
+	margin-top:5%;
+	display:flex;
+}
+
+#frage {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.antworten {
+    font-size: 20px;
+}
+
+#fragensubmit {
+    width:30%;
+	height:30px;
+	font-weight:bold;
+	border:solid 1px;
+	border-radius:7px;
+	border-color: RGB(66,66,66);
+	font-size:16px;
+	background-color: RGB(248,248,255);
+	color: RGB(66,66,66);
+	cursor: pointer;
+	
+}
+
+#fragensubmit:hover {
+	background-color:RGB(171,171,171);
+}
+
+#timerbox {
+    margin-left: 45%;
+    position: relative;
+    top:30px;
+}
+
+#timerline {
+    position: relative;
+    left:9%;
+}
+
+#fragenstand{
+	margin-left:10.5%;
+}
